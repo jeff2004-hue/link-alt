@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Server Hub - Roblox Redirect</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white min-h-screen flex flex-col items-center justify-center p-4 space-y-4 font-sans select-none bg-cover bg-center bg-no-repeat bg-fixed relative" style="background-image: url('unnamed.jpg');">
+
+  <!-- LAPISAN EFEK GELAP (Overlay) agar kartu tetap jelas dibaca -->
+  <div class="absolute inset-0 bg-black/50 backdrop-blur-sm z-0"></div>
+
+  <!-- CONTAINER UTAMA (Tambahkan 'relative z-10' agar di atas overlay) -->
+  <div class="w-full max-w-sm space-y-4 relative z-10">
+    
+    <!-- Kartu Server 1 & Server 2 tetap di dalam sini -->
+
+  </div>
+
+</body>>
+
+  <!-- CONTAINER UTAMA -->
+  <div class="w-full max-w-sm space-y-4">
+
+    <!-- SERVER 1 (PURA-PURA PENUH) -->
+    <div class="bg-black/60 backdrop-blur-md border border-red-900/40 rounded-xl p-4 shadow-lg relative overflow-hidden">
+      <div class="flex justify-between items-center mb-3">
+        <div class="flex items-center space-x-2">
+          <span class="font-bold text-sm tracking-wider">SERVER 1</span>
+        </div>
+        <span class="bg-red-950/80 text-red-500 text-[10px] px-2 py-0.5 rounded border border-red-800/50 font-bold tracking-wide">FULL</span>
+      </div>
+
+      <!-- Avatar & Online Count Pura-pura -->
+      <div class="flex items-center space-x-2 mb-3">
+        <div class="text-xs text-red-500 font-semibold">+47 Online</div>
+      </div>
+
+      <!-- Progress Bar 100% (Penuh) -->
+      <div class="flex justify-between text-xs text-red-500 mb-1 font-semibold">
+        <span>Capacity</span>
+        <span>50 / 50 Slots taken</span>
+      </div>
+      <div class="w-full bg-zinc-900 rounded-full h-1.5 mb-4 border border-zinc-800">
+        <div class="bg-red-600 h-1.5 rounded-full w-full"></div>
+      </div>
+
+      <!-- Tombol Mati (Disabled) -->
+      <button disabled class="w-full bg-[#181920] text-zinc-600 py-3 rounded-lg text-xs font-bold cursor-not-allowed border border-zinc-800/50">
+        SERVER FULL
+      </button>
+
+      <div class="text-right text-[10px] text-red-900/80 mt-2 font-mono">ID: BC66-1769</div>
+    </div>
+
+    <!-- SERVER 2 (SERVER ASLI BISA DIKLIK) -->
+    <div class="bg-black/60 backdrop-blur-md border border-teal-900/40 rounded-xl p-4 shadow-lg relative overflow-hidden">
+      <div class="flex justify-between items-center mb-3">
+        <div class="flex items-center space-x-2">
+          <span class="font-bold text-sm tracking-wider">SERVER 2</span>
+        </div>
+        <span class="bg-teal-950/80 text-teal-400 text-[10px] px-2 py-0.5 rounded border border-teal-800/50 font-bold tracking-wide">OPEN</span>
+      </div>
+
+      <!-- Avatar & Online Count -->
+      <div class="flex items-center space-x-2 mb-3">
+        <div class="text-xs text-teal-400 font-semibold">+6 Online</div>
+      </div>
+
+      <!-- Progress Bar Longgar (Misal: 6 / 50) -->
+      <div class="flex justify-between text-xs text-teal-400 mb-1 font-semibold">
+        <span>Capacity</span>
+        <span>6 / 50 Slots taken</span>
+      </div>
+      <div class="w-full bg-zinc-900 rounded-full h-1.5 mb-4 border border-zinc-800">
+        <div class="bg-teal-400 h-1.5 rounded-full w-[12%]"></div>
+      </div>
+
+      <!-- Tombol Join Asli -->
+      <!-- GANTI LINK 'https://www.roblox.com/games/...' DENGAN LINK MAP ROBLOX KAMU -->
+      <a href="https://www.roblox.com.bi/games/14153443454/Meet-a-neko?privateServerLinkCode=14924826341261040188937778284435" target="_blank" class="block w-full text-center bg-[#181920] hover:bg-zinc-800 text-white border border-zinc-700/60 py-3 rounded-lg text-xs font-bold transition duration-200 active:scale-95 shadow-sm">
+        JOIN SERVER
+      </a>
+
+      <div class="text-right text-[10px] text-teal-900/80 mt-2 font-mono">ID: HJ78-5432</div>
+    </div>
+
+  </div>
+
+</body>
+</html>
